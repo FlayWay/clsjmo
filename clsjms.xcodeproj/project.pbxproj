@@ -28,6 +28,7 @@
 		864FED5421522BBD009425F6 /* NumberValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5321522BBD009425F6 /* NumberValidate.m */; };
 		864FED5721522BD9009425F6 /* LatterValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5621522BD9009425F6 /* LatterValidate.m */; };
 		864FED5A21522BF7009425F6 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5921522BF7009425F6 /* CustomTextField.m */; };
+		864FED6321523F7F009425F6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 864FED6221523F7F009425F6 /* 1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		864FED5621522BD9009425F6 /* LatterValidate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatterValidate.m; sourceTree = "<group>"; };
 		864FED5821522BF7009425F6 /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		864FED5921522BF7009425F6 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		864FED6221523F7F009425F6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		864FED0B21522577009425F6 = {
 			isa = PBXGroup;
 			children = (
+				864FED6121523F77009425F6 /* other */,
 				864FED1621522577009425F6 /* clsjms */,
 				864FED1521522577009425F6 /* Products */,
 			);
@@ -154,6 +157,14 @@
 			path = textField;
 			sourceTree = "<group>";
 		};
+		864FED6121523F77009425F6 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				864FED6221523F7F009425F6 /* 1.gif */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,6 +224,7 @@
 			files = (
 				864FED4E215227C6009425F6 /* ViewController.xib in Resources */,
 				864FED4621522650009425F6 /* TwoCollectionCell.xib in Resources */,
+				864FED6321523F7F009425F6 /* 1.gif in Resources */,
 				864FED2421522579009425F6 /* LaunchScreen.storyboard in Resources */,
 				864FED4721522650009425F6 /* OneCollectionCell.xib in Resources */,
 				864FED4A21522706009425F6 /* 1.jpg in Resources */,
