@@ -42,11 +42,9 @@
     [textField validateTextFiled:textField];
     
 }
-
 - (void)next {
     
     [self.navigationController pushViewController:[MyViewController new] animated:YES];
 }
-
 
 @end

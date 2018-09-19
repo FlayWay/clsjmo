@@ -28,8 +28,6 @@
 		864FED5421522BBD009425F6 /* NumberValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5321522BBD009425F6 /* NumberValidate.m */; };
 		864FED5721522BD9009425F6 /* LatterValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5621522BD9009425F6 /* LatterValidate.m */; };
 		864FED5A21522BF7009425F6 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5921522BF7009425F6 /* CustomTextField.m */; };
-		864FED5E21523259009425F6 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864FED5C21523259009425F6 /* CViewController.m */; };
-		864FED5F21523259009425F6 /* CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864FED5D21523259009425F6 /* CViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,9 +67,6 @@
 		864FED5621522BD9009425F6 /* LatterValidate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatterValidate.m; sourceTree = "<group>"; };
 		864FED5821522BF7009425F6 /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		864FED5921522BF7009425F6 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
-		864FED5B21523259009425F6 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
-		864FED5C21523259009425F6 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
-		864FED5D21523259009425F6 /* CViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +150,6 @@
 				864FED5321522BBD009425F6 /* NumberValidate.m */,
 				864FED5521522BD9009425F6 /* LatterValidate.h */,
 				864FED5621522BD9009425F6 /* LatterValidate.m */,
-				864FED5B21523259009425F6 /* CViewController.h */,
-				864FED5C21523259009425F6 /* CViewController.m */,
-				864FED5D21523259009425F6 /* CViewController.xib */,
 			);
 			path = textField;
 			sourceTree = "<group>";
@@ -225,7 +217,6 @@
 				864FED4721522650009425F6 /* OneCollectionCell.xib in Resources */,
 				864FED4A21522706009425F6 /* 1.jpg in Resources */,
 				864FED2121522579009425F6 /* Assets.xcassets in Resources */,
-				864FED5F21523259009425F6 /* CViewController.xib in Resources */,
 				864FED1F21522577009425F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +233,6 @@
 				864FED1C21522577009425F6 /* ViewController.m in Sources */,
 				864FED4521522650009425F6 /* TwoCollectionCell.m in Sources */,
 				864FED5A21522BF7009425F6 /* CustomTextField.m in Sources */,
-				864FED5E21523259009425F6 /* CViewController.m in Sources */,
 				864FED4821522650009425F6 /* OneCollectionCell.m in Sources */,
 				864FED2721522579009425F6 /* main.m in Sources */,
 				864FED3B21522646009425F6 /* CellType.m in Sources */,

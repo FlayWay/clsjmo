@@ -18,7 +18,6 @@
     }else {
          NSLog(@"------%@",self.validate.attributeInputStr);
     }
-
 }
 
 @end
