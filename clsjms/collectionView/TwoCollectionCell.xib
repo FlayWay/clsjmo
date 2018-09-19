@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TwoCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="187" height="203"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pcY-kR-kWE">
+                        <rect key="frame" x="0.0" y="13" width="187" height="125"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="125" id="3HO-X2-OLm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阿迪达斯官方adidas neo Q3 d 1PPPD 男女 袜子" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUO-D6-vih">
+                        <rect key="frame" x="0.0" y="143" width="187" height="31.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥580 879人付款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cz0-hI-hyX">
+                        <rect key="frame" x="0.0" y="179" width="120" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="bUO-D6-vih" firstAttribute="top" secondItem="pcY-kR-kWE" secondAttribute="bottom" constant="5" id="1mU-g3-YvU"/>
+                <constraint firstItem="pcY-kR-kWE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5No-2i-M0q"/>
+                <constraint firstItem="bUO-D6-vih" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="DZz-9l-SlG"/>
+                <constraint firstAttribute="trailing" secondItem="bUO-D6-vih" secondAttribute="trailing" id="Ngh-rE-SyZ"/>
+                <constraint firstItem="pcY-kR-kWE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="XU6-hM-kGX"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cz0-hI-hyX" secondAttribute="trailing" constant="67" id="bF2-ID-5n5"/>
+                <constraint firstItem="cz0-hI-hyX" firstAttribute="top" secondItem="bUO-D6-vih" secondAttribute="bottom" constant="4.5" id="e5f-FB-zYD"/>
+                <constraint firstAttribute="trailing" secondItem="pcY-kR-kWE" secondAttribute="trailing" id="tkN-fg-hpQ"/>
+                <constraint firstItem="cz0-hI-hyX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xlZ-zl-fSn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="337" height="203"/>
+            <point key="canvasLocation" x="-86.5" y="17.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="1.jpg" width="218" height="146"/>
+    </resources>
+</document>
